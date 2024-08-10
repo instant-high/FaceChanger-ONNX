@@ -1,4 +1,4 @@
-# Face-changer-ONNX
+# FaceChanger-ONNX
 Warp faces in videos and images. ONNX models for better detection/alignment
 
 This is NOT realtime, but has a few additional features...  (read parameters.txt for more)
