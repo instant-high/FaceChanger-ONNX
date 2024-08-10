@@ -23,11 +23,15 @@ python video.py --"input.mp4" --output "output.mp4"
 
 3. Result video:
 
-https://github.com/user-attachments/assets/3dc0103e-c110-4811-832c-c77e465e6be8
+https://github.com/user-attachments/assets/a6080818-c887-4f06-9e1f-9d65d975de4e
 
 .
 
 Original FaceChanger: https://github.com/pascscha/FaceChanger
 
 98 Keypoint detection: https://github.com/610265158/Peppa_Pig_Face_Landmark
+
+
+
+
 
