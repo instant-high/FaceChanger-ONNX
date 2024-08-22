@@ -241,7 +241,7 @@ if __name__ == "__main__":
                 ui_handler.features = new_features
                 new_img = transform(img, features, new_features)
                 #new_img = draw_keypoints(new_img.copy(), new_features)
-                cv2.imshow("new",new_img)
+                #cv2.imshow("new",new_img)
                 
             else:
                 new_img = img
