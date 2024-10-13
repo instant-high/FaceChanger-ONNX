@@ -30,7 +30,7 @@ def process_video(model, img, size, crop_scale):
     size = args.size
     
     # detection model input 256
-    bboxes, kpss = model.detect(img, (256, 256), det_thresh=0.6)
+    bboxes, kpss = model.detect(img, (256, 256), det_thresh=0.3)
     aimg, mat = get_cropped_head_256(img, kpss[0], size=args.size, scale=crop_scale)
     
     return aimg, mat
