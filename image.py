@@ -22,7 +22,7 @@ def process_image(model, img, size, crop_scale):
 
     size = args.size
 
-    bboxes, kpss = model.detect(img, (256, 256), det_thresh=0.6)
+    bboxes, kpss = model.detect(img, (256, 256), det_thresh=0.3)
     if kpss is None or len(kpss) == 0:
         raise Exception("No face detected")
     
